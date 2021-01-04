@@ -133,7 +133,7 @@ hr{
 
 .footer{
     background-color:var(--primary-color);
-    padding: 5rem 1rem;
+    padding: 4rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -167,15 +167,17 @@ textarea{
     width:80%;
     height:10vh;
     display:block;
-    margin:1rem;
+    /* margin:1rem; */
     padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 #output{
-    border:1px solid black;
+    border:3px solid var(--primary-color);
     width:80%;
     height:10vh;
     display:block;
-    margin:1rem;
+    margin:auto;
     padding: 1rem;
 }
